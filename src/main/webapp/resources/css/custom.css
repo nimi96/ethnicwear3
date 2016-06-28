@@ -1,0 +1,43 @@
+@CHARSET "ISO-8859-1";
+
+.navbar-right{
+	
+	
+	 padding-right:100px;
+}
+
+.collapse{
+	
+	padding-right:100px;
+	
+}
+
+.carousel-inner{
+	
+	background-color:red; 
+}
+.btn{
+	
+	
+	text-align:center;
+}
+
+.my{
+	
+	
+	margin: auto;
+    width: 50%;
+ padding: 10px;
+  background: rgba(76, 175, 80, 0.5)
+}
+
+.my2{
+	
+	
+	 padding: 70px 0;
+    border: 3px;
+	margin: auto;
+    width: 50%;
+ padding: 10px;
+ 
+}

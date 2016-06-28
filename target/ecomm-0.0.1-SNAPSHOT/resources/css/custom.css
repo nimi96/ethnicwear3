@@ -1,0 +1,18 @@
+@CHARSET "ISO-8859-1";
+
+.navbar-right{
+	
+	
+	 padding-right:100px;
+}
+
+.collapse{
+	
+	padding-right:100px;
+	
+}
+
+.carousel-inner{
+	
+	background-color:red; 
+}
