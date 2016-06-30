@@ -47,14 +47,11 @@ xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.sprin
 		<property name="packagesToScan">
 		<list>
 		<value>com.niit.ecomm.model</value>
-		
+		<value>com.niit.ecomm.usermodel</value>
 		</list>
 		</property>
 	</bean>	
 	
-	<!-- <bean id="initme"
-		class="com.furnit.InitConfig"
-		init-method="init" /> -->
 
     <bean id="transactionManager" class="org.springframework.orm.hibernate4.HibernateTransactionManager">
 	<property name="sessionFactory" ref="sessionFactory" />
