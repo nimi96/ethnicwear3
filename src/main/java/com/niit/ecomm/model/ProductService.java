@@ -1,8 +1,6 @@
 package com.niit.ecomm.model;
 
-public interface ProductService {
-
-	public void insert(product p);
-	
-	
+public interface ProductService
+{
+	public void insert(Product p);
 }

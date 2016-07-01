@@ -1,1 +1,11 @@
+com\niit\ecomm\model\Product.class
 com\niit\ecomm\controller\ecommcontroller.class
+com\niit\ecomm\usermodel\UserDaoImpl.class
+com\niit\ecomm\model\ProductDAOImpl.class
+com\niit\ecomm\model\ProductDAO.class
+com\niit\ecomm\usermodel\UserDao.class
+com\niit\ecomm\usermodel\User.class
+com\niit\ecomm\usermodel\UserService.class
+com\niit\ecomm\model\ProductServiceImpl.class
+com\niit\ecomm\usermodel\UserServiceimpl.class
+com\niit\ecomm\model\ProductService.class
