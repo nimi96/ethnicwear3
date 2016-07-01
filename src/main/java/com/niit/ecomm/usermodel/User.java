@@ -9,9 +9,10 @@ import javax.persistence.Id;
 
 public class User {
 	
-	@Id @GeneratedValue(strategy=GenerationType.AUTO)
 	private boolean Active=true;
 	private int Role=1;
+	
+	@Id @GeneratedValue(strategy=GenerationType.AUTO)
 	private int userid;
 	
 	

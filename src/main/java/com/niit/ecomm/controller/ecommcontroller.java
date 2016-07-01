@@ -4,10 +4,14 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.niit.ecomm.model.ProductService;
+import com.niit.ecomm.usermodel.User;
+import com.niit.ecomm.usermodel.UserService;
 
 
 
@@ -18,6 +22,8 @@ public class ecommcontroller {
   	@Autowired
 	ProductService ps;
 	
+  	@Autowired
+  	UserService us;
 	
 	@RequestMapping("/")
 	public String helloecomm() {
@@ -118,6 +124,29 @@ public class ecommcontroller {
 	}
 
 	
+
+	@RequestMapping(value="/signup",method=RequestMethod.GET)
+	public ModelAndView signupform()
+	{
+	 
+	 ModelAndView mav=new ModelAndView("signup");
+	 mav.addObject("User",new User());
+	 
+	 
+	 return mav;
+	 
+	}
+		
+	
+	@RequestMapping(value="/InsertUser",method=RequestMethod.POST)
+	public ModelAndView InsertUser(@ModelAttribute("User") User u)
+	{
+	 us.insert (u);
+	 ModelAndView mav=new ModelAndView("signup");
+	 mav.addObject("User",new User());
+	 return mav;
+	 
+	}
 	
 	
 	

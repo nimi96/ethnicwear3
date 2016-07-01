@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -25,7 +26,7 @@
 
 	<h1 align="center">Sign up now to ethnic wear</h1>
 
-	<div class="my2">
+	<!-- <div class="my2">
 
 		<div class="col-sm-1 middle-border "></div>
 		<div class="col-sm-1"></div>
@@ -67,6 +68,30 @@
 								placeholder="enter your phone number"
 								class="form-email form-control" id="form-email">
 
+<br>
+						<label class="sr-only" for="form-email">password</label> <input
+								type="password" name="form-email"
+								placeholder="enter your password"
+								class="form-email form-control" id="form-email">
+								
+								<Br>
+								
+							
+								
+								
+								
+									<label class="sr-only" for="form-email">cpassword</label> <input
+								type="password" name="form-email"
+								placeholder="confirm your password"
+								class="form-email form-control" id="form-email">
+								
+               	<label class="sr-only" for="form-email">address</label> <input
+								type="" name="form-email"
+								placeholder="enter your address"
+								class="form-email form-control" id="form-email">
+               
+
+
 						</div>
 						<button type="submit" class="btn">Sign me up!</button>
 					</form>
@@ -76,7 +101,28 @@
 		</div>
 
 		<div>
+
+ --> 
+
+
+<h2>Student Information</h2>
+<form:form method="POST" action="InsertUser" modelAttribute="User">
+   <table>
+    <tr>
+        <td><form:label path="name">Name</form:label></td>
+        <td><form:input path="name" /></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <input type="submit" value="Submit"/>
+        </td>
+    </tr>
+</table>  
+</form:form>
+
 </body>
+
+
 
 </html>
 
