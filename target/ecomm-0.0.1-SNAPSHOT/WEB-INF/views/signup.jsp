@@ -103,23 +103,40 @@
 		<div>
 
  --> 
+ 
 
-
-<h2>Student Information</h2>
-<form:form method="POST" action="InsertUser" modelAttribute="user">
-   <table>
+<form:form method="POST" action="InsertUser" modelAttribute="User">
+   <table align="center">
     <tr>
         <td><form:label path="name">Name</form:label></td>
         <td><form:input path="name" /></td>
     </tr>
+      
     <tr>
-        <td><form:label path="age">Age</form:label></td>
-        <td><form:input path="age" /></td>
+        <td><form:label path="lastname" >lastname</form:label></td>
+        <td><form:input path="lastname"/></td>
     </tr>
-    <tr>
-        <td><form:label path="id">id</form:label></td>
-        <td><form:input path="id" /></td>
+     <tr>
+        <td><form:label path="contact">contact number</form:label></td>
+        <td><form:input path="contact" /></td>
     </tr>
+    
+     <tr>
+        <td><form:label path="password"  >enter password</form:label></td>
+        <td><form:input path="password" type="password"/></td>
+    </tr>
+    
+      <tr>
+        <td><form:label path="confirm_password"  >confirm password</form:label></td>
+        <td><form:input path="confirm_password" type="password"/></td>
+    </tr>
+    
+     <tr>
+        <td><form:label path="address" >address</form:label></td>
+        <td><form:input path="address"/></td>
+    </tr>
+  
+    
     <tr>
         <td colspan="2">
             <input type="submit" value="Submit"/>

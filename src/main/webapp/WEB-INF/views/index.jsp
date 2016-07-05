@@ -261,7 +261,7 @@
 					/align="center"   class="img-circle" height="300" width="300"  > &nbsp; &nbsp;
 			&nbsp; &nbsp;
 
-  
+  <h1> <a href="newproduct" > add products </h1></a>
 
 </body>
 </html>

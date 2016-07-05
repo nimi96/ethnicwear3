@@ -49,8 +49,8 @@ var myApp=angular.module('myModule',[]);
 </thead>
 <tbody>
 <tr ng-repeat="employee  in employees  | filter:searchText"  >
-<td align="center" > {{employee.name}}</td>
-
+<td align="center" > {{employee.productname}}</td>
+<td align="center" > {{employee.manufacturer}}</td>
 <td  align="center" >{{employee.price}}</td>
 <td align="center" ><img  src="{{employee.image}}">
 </tr>
