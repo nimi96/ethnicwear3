@@ -17,7 +17,7 @@
 </script>
 
 <link rel="stylesheet"  href="C:\Users\nimit\Desktop\eclipsew1\ff\src\main\webapp\resources\css\main.css " >
-
+<%@include file="head.jsp" %>
 </head>
 <body>
 

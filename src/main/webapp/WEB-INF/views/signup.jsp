@@ -20,7 +20,7 @@
 </script>
 
 <link rel="stylesheet" href="resources/css/custom.css">
-
+<%@include file="head.jsp" %>
 </head>
 <body background="resources/img/1.jpg">
 

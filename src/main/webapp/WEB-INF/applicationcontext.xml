@@ -48,6 +48,8 @@ xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.sprin
 		<list>
 		<value>com.niit.ecomm.model</value>
 		<value>com.niit.ecomm.usermodel</value>
+		<value>com.nitt.ecomm.user.rolemodel</value>
+		
 		</list>
 		</property>
 	</bean>	

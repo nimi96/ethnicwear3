@@ -5,6 +5,19 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>mens collection </title>
+<script
+		
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js">
+		
+		</script>
+
+<script
+	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+	
+</script>
+<%@include file="head.jsp" %>
+<link rel="stylesheet" href="resources/css/bootstrap.min.css">
+<link rel="stylesheet" href="resources/css/custom.css">
 </head>
 <body>
 

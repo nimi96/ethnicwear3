@@ -70,6 +70,11 @@ public class ecommcontroller {
 	}
 	
 	
+	@RequestMapping("/index")
+	public String index() {
+		return "index";
+	}
+	
 	
 	
 	@RequestMapping("/allproducts")

@@ -20,12 +20,12 @@
 	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
 	
 </script>
-
+<%@include file="head.jsp" %>
 <link rel="stylesheet" href="resources/css/custom.css">
 </head>
 <body>
 
-	<nav class="navbar navbar-inverse navbar">
+<!-- 	<nav class="navbar navbar-inverse navbar">
 	<div class="container-fluid">
 		<div class="navbar-header">
 			<a class="navbar-brand" href="#">ETHNIC WEAR</a>
@@ -76,7 +76,7 @@
 		</div>
 	</nav>
 	</div>
-
+ --> 
 	<div id="myCarousel" class="carousel slide" data-ride="carousel"
 		style="color: #FFFFFF">
 		<!-- Indicators -->
